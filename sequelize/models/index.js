@@ -10,8 +10,7 @@ const config = require(__dirname + "/../config/config.js")[env];
 const db = {};
 
 // const sequelize = new Sequelize(`${config.url}?sslmode=no-verify`, config);
-
-// console.log(config.url);
+console.log(config);
 let sequelize;
 if (config.url) {
   sequelize = new Sequelize(`${config.url}?sslmode=no-verify`, config);

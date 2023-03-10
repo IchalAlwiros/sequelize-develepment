@@ -1,3 +1,5 @@
+require("dotenv").config({ path: __dirname + "/../../.env" });
+
 const { DATABASE_URL } = process.env;
 
 module.exports = {
